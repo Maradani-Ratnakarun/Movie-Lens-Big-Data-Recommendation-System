@@ -53,3 +53,20 @@ The models were evaluated iteratively against the validation set using the Root 
 ├── MovieLens_Report.Rmd    # R Markdown source generating the formal engineering report
 ├── MovieLens_Report.pdf    # Compiled PDF executive summary and technical documentation
 └── README.md               # Repository documentation
+```
+## How to Execute the Pipeline
+To replicate the environment and reproduce the optimization results:
+
+# Clone the repository:
+
+```Bash
+git clone [https://github.com/Maradani-Ratnakarun/HarvardX-Data-Science-Capstone.git](https://github.com/Maradani-Ratnakarun/HarvardX-Data-Science-Capstone.git)
+```
+Open MovieLens_Analysis.R in your R environment.
+
+Ensure all system dependencies are configured by executing:
+
+```R
+install.packages(c("tidyverse", "caret", "data.table"))
+```
+Run the script to execute the ETL pipeline, initiate model training, and output final performance evaluation metrics.
